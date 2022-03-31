@@ -17,7 +17,7 @@ namespace lab8.Views
             this.FindControl<Button>("Add").Click += async delegate
             {
                 var context = (this.DataContext as MainWindowViewModel);
-                Note newnote = new Note("����� �������", "0", "0", "0", "0", "0", "0", "0", false);
+                Note newnote = new Note("", "0", "0", "0", "0", "0", "0", "0", false);
                 newnote.PropertyChanged += context.ContentCollectionChanged;
                 context.Notes.Add(newnote);
             };
