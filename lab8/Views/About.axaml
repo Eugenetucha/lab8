@@ -7,6 +7,6 @@
         x:Class="lab8.Views.About"
         Title="About">
 	
-        <TextBox HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Text="ИП-011 Котин Данила"/>
+        <TextBox HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Text="ИП-012 Фоменко Евгений"/>
 	
 </Window>
